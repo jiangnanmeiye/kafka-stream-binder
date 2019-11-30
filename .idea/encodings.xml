@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/kafka_bind" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring_cloud_stream_kafka_stream_bind" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka_binder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka_stream_binder" charset="UTF-8" />
   </component>
 </project>

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/kafka_bind/kafka_bind.iml" filepath="$PROJECT_DIR$/kafka_bind/kafka_bind.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring_cloud_stream_bind_kafka.iml" filepath="$PROJECT_DIR$/.idea/spring_cloud_stream_bind_kafka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring_cloud_stream_kafka_stream_bind/spring_cloud_stream_kafka_stream_bind.iml" filepath="$PROJECT_DIR$/spring_cloud_stream_kafka_stream_bind/spring_cloud_stream_kafka_stream_bind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka_binder/kafka_binder.iml" filepath="$PROJECT_DIR$/kafka_binder/kafka_binder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka_stream_binder/kafka_stream_binder.iml" filepath="$PROJECT_DIR$/kafka_stream_binder/kafka_stream_binder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring_cloud_stream_kafka.iml" filepath="$PROJECT_DIR$/.idea/spring_cloud_stream_kafka.iml" />
     </modules>
   </component>
 </project>

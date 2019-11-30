@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.springcloudstream</groupId>
-    <artifactId>kafka_bind</artifactId>
+    <artifactId>kafka_stream_binder</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kafka_bind</name>
+    <name>kafka_stream_binder</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,9 +22,8 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-stream-binder-kafka</artifactId>
+            <artifactId>spring-cloud-stream-binder-kafka-streams</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -37,9 +36,9 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-kafka-test</artifactId>
-            <scope>test</scope>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

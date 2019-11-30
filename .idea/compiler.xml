@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring_cloud_stream_kafka_stream_bind" />
-        <module name="kafka_bind" />
+        <module name="kafka_stream_binder" />
+        <module name="kafka_binder" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kafka_bind" target="1.8" />
-      <module name="spring_cloud_stream_kafka_stream_bind" target="1.8" />
+      <module name="kafka_binder" target="1.8" />
+      <module name="kafka_stream_binder" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="kafka_bind" options="-parameters" />
-      <module name="spring_cloud_stream_kafka_stream_bind" options="-parameters" />
+      <module name="kafka_binder" options="-parameters" />
+      <module name="kafka_stream_binder" options="-parameters" />
     </option>
   </component>
 </project>
