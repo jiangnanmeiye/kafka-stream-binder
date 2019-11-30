@@ -1,1 +1,1 @@
-# spring_cloud_stream_bind_kafka
+# spring_cloud_stream_kafka_binder
